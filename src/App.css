@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: orange; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+.app{
+  width: 98%;
+  margin: auto;
+}

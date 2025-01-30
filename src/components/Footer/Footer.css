@@ -1,0 +1,19 @@
+.footer-content-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides any overflow if the text is too long */
+  text-overflow: ellipsis; /* Adds "..." at the end if the text overflows */
+  background-color: #333; /* Change to your desired background color */
+  border-top: 2px solid #fff; /* Adds a white line above the content */
+  margin-top: 100px;
+}
+
+.footer-content-left p {
+  font-size: 1rem;
+  color: #fff; /* Text color */
+  margin: 0;
+  white-space: nowrap; /* Prevents text from wrapping */
+}

@@ -1,0 +1,46 @@
+.about-container {
+  background-color: black;
+  color: orange;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-video {
+  width: 100%;
+  max-width: 500px;
+  /* border: 2px solid orange;
+  border-radius: 10px; */
+}
+
+.about-right {
+  flex: 1;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-right p {
+  margin-bottom: 15px;
+}
