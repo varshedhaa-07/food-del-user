@@ -31,7 +31,6 @@ const Navbar = ({setShowLogin}) => {
           <a href="#contact" onClick={() => setMenu("contact")} className={menu==="contact" ? "active": ""}>Contact</a>
         </ul>
       <div className="navbar-right">
-        <FaSearch className="icon" />
         <div className="navbar-search-icon">
           <Link to='/cart'><FaShoppingCart className="icon" /></Link>
           <div className={getTotalCartAmount()===0?"":"dot"}></div>

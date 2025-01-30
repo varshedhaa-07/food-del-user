@@ -40,7 +40,6 @@ const Home = () => {
       <div className="overlay" >
         <h1 className="home-title">Welcome to Foodie's Paradise</h1>
         <p className="home-subtitle">Satisfy your cravings with just a few clicks!</p>
-        <button>View Menu</button>
       </div>
     </div>
   );
